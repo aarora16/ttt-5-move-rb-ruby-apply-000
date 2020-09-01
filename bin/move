@@ -7,3 +7,5 @@ puts "Welcome to Tic Tac Toe!"
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 input = gets.strip
 input_to_index(index)
+move(board, index, "X")
+display_board
